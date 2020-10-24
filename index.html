@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="css/style.css">
 
     <script src="https://kit.fontawesome.com/4d23064df5.js" crossorigin="anonymous"></script>
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
 
 
     <title>Jabones Panambí</title>
@@ -25,7 +27,7 @@
         <div class="contenedor contenido-header">
             <div class="barra">
                 <a href="index.html">
-                    <img src="img/logo-panambi.png" class="logo" alt="Logo Panambi">
+                    <img src="img/logo-panambi.png" class="logo logo-index" alt="Logo Panambi">
                 </a>
 
                 <nav class="navegacion index menu-items ">
@@ -65,17 +67,17 @@
             <div class="icono">
                 <img class="tamaño-icono" src="img/icono-desarrollo.svg" alt="Icono Desarrollo">
                 <h3>Desarrollo</h3>
-                <p>Iure ipsam porro quasi nihil. Tempore sint natus in quis cumque eveniet error dolore qui magnam dolores debitis, incidunt ex porro veniam.</p>
+                <p>Contamos con la capacidad para crear nuevas pastillas de jabón y otros productos de cosmética a requerimiento del cliente, cumpliendo las normas que exige la Comunidad Europea.</p>
             </div>
             <div class="icono">
                 <img class="tamaño-icono" src="img/icono-innovacion.svg" alt="Icono Innovación">
                 <h3>Innovación</h3>
-                <p>Iure ipsam porro quasi nihil. Tempore sint natus in quis cumque eveniet error dolore qui magnam dolores debitis, incidunt ex porro veniam.</p>
+                <p>Nuestras maquinas adquiridas en Italia, nos proveen tecnología y agilidad a nuestro proceso de fabricación, lo que puede ser fácilmente observado en el producto terminado.</p>
             </div>
             <div class="icono">
                 <img class="tamaño-icono" src="img/icono-ecologico.svg" alt="Icono Ecológico">
                 <h3>Ecológico</h3>
-                <p>Iure ipsam porro quasi nihil. Tempore sint natus in quis cumque eveniet error dolore qui magnam dolores debitis, incidunt ex porro veniam.</p>
+                <p>Nuestras bases de jabón son de aceites de primera prensada en frio, nuestros colorantes eccoamigables con el medio ambiente, nuestras fragancias de ph neutro, pastillas Zerowaste, sin sebo animal ni detergente químico.</p>
             </div>
         </div>
     </section>
@@ -85,7 +87,7 @@
         <h2 class="fw-300 centrar-texto">Tipos de Jabones</h2>
         <div class="contenedor-anuncios">
             <div class="anuncio">
-                <img src="img/foto-catalogo-1.jpg" alt="Foto Catálogo 1">
+                <img src="img/producto1.jpg" alt="Foto Catálogo 1">
                 <div class="contenido-anuncio">
                     <h3>Aroma Limón</h3>
                     <p>Nulla vehicula placerat elit, non tincidunt sapien tincidunt id.</p>
@@ -110,7 +112,7 @@
             </div>
 
             <div class="anuncio">
-                <img src="img/foto-catalogo-1.jpg" alt="Foto Catálogo 2">
+                <img src="img/producto2.jpg" alt="Foto Catálogo 2">
                 <div class="contenido-anuncio">
                     <h3>Algarrobas</h3>
                     <p>Nulla vehicula placerat elit, non tincidunt sapien tincidunt id.</p>
@@ -134,7 +136,7 @@
 
             </div>
             <div class="anuncio">
-                <img src="img/foto-catalogo-1.jpg" alt="Foto Catálogo 3">
+                <img src="img/producto6.jpg" alt="Foto Catálogo 3">
                 <div class="contenido-anuncio">
                     <h3>Sabor a Sandía</h3>
                     <p>Nulla vehicula placerat elit, non tincidunt sapien tincidunt id.</p>
@@ -199,7 +201,7 @@
 
             <article class="entrada-blog">
                 <div class="imagen">
-                    <img src="img/blog2.jpg" alt="">
+                    <img src="img/blog-2.jpg" alt="">
                 </div>
                 <div class="texto-entrada">
                     <a href="entrada.html">
@@ -232,6 +234,8 @@
                 <a href="contacto.html">Contacto</a>
             </nav>
 
+            <a class="politicas" href="https://www.privacypolicies.com/live/e1dd4080-3450-498e-bba7-12e4e1a562e1
+            ">Políticas de Privacidad</a>
             <p class="copyright">Todos los Derechos Reservados 2020 &copy;</p>
         </div>
 
@@ -239,10 +243,25 @@
 
 
 
+    <!-- Cookies -->
+    <div id="cajacookies">
+
+        <p>
+            <button onclick="aceptarCookies()" class="pull-right">
+                    <i class="fa fa-times"></i> Aceptar y cerrar éste mensaje
+                </button> Éste sitio web usa cookies, si permanece aquí acepta su uso. Puede leer más sobre el uso de cookies en nuestra
+            <a href="politica.html">política de privacidad</a>.
+        </p>
+
+
+    </div>
 
 
 
+    <!-- Aviso de Cookies -->
+    <script src="js/cookies.js"></script>
     <script src="js/menu.js"></script>
+
 </body>
 
 </html>

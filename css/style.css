@@ -102,7 +102,8 @@
     }
     
     .boton-amarillo {
-        background-color: #E08709;
+        /* background-color: #E08709; */
+        background-color: #84bffd;
     }
     
     .boton-verde {
@@ -188,8 +189,24 @@
         /*  width: 50%; */
         width: 170px;
         margin: 0;
-        padding-top: .4rem;
-        opacity: 0.9;
+        padding-top: 1.5rem;
+        opacity: 0.8;
+    }
+    
+    .logo-index {
+        opacity: 0.55 !important;
+    }
+    
+    @media(min-width: 768px) {
+        .logo {
+            width: 200px;
+            margin: 0;
+            padding-top: .4rem;
+            opacity: 0.8;
+        }
+        .logo-index {
+            opacity: 0.55 !important;
+        }
     }
     /* Navegacion */
     
@@ -303,7 +320,7 @@
     /* Contacto Home */
     
     .imagen-contacto {
-        background-image: url(../img/encuentra.jpg);
+        background-image: url(../img/PBL-40.jpg);
         background-position: center center;
         background-size: cover;
         height: 40rem;
@@ -563,4 +580,34 @@
         .btn-menu {
             display: inline-flex;
         }
+    }
+    
+    @media(min-width: 768px) {
+        .texto-header {
+            display: flex;
+            justify-content: flex-end;
+        }
+        .texto-header h1 {
+            font-size: 8rem;
+        }
+    }
+    
+    .politicas {
+        text-decoration: none;
+        font-size: 1.5rem;
+    }
+    
+    #cajacookies {
+        display: none;
+        box-shadow: 0px 0px 5px 5px #808080;
+        background-color: white;
+        color: black;
+        padding: 10px;
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+    }
+    
+    #cajacookies button {
+        color: black;
     }
